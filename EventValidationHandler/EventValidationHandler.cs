@@ -41,8 +41,18 @@ namespace JSI.SecurityTools.EventValidationHandler
         /// <returns></returns>
         public static ArrayList DeSerializeStringToArray(string eventValidation)
         {
+            ArrayList list = new ArrayList();
             ObjectStateFormatter _formatter = new ObjectStateFormatter();
-            return (ArrayList)_formatter.Deserialize(eventValidation);
+            try
+            {
+                list = (ArrayList)_formatter.Deserialize(eventValidation);
+            }
+            catch (InvalidCastException e) // If we get this, it is probably .Net 4.0
+            {
+                list.Add(".Net 4.0");
+            }
+            
+            return list;
         }
         public static ArrayList DeSerializeStringToArray2(string eventValidation)
         {

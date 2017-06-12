@@ -97,7 +97,7 @@ namespace EventDecoder
       this._arrayList.Add(txtInput.Text);
       lstItems.Items.Clear();
 
-             this._arrayList = JSI.SecurityTools.EventValidationHandler.EventValidationHandler.DeSerializeStringToArray2(txtOriginalEventString.Text);
+             this._arrayList = JSI.SecurityTools.EventValidationHandler.EventValidationHandler.DeSerializeStringToArray(txtOriginalEventString.Text);
             //this._arrayList = JSI.SecurityTools.EventValidationHandler.EventValidationHandler.DeserializeFrom(new System.IO.MemoryStream(Encoding.UTF8.GetBytes(txtOriginalEventString.Text)));
             for (int i = 0;i < _arrayList.Count;i++)
       {
