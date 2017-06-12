@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDecoder", "EventDecoder\EventDecoder.csproj", "{8688EE86-D0BF-477C-895C-367DD1360B25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventValidationHandler", "EventValidationHandler\EventValidationHandler.csproj", "{94CB6575-2E43-48B1-98CE-49EA0A005FAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8688EE86-D0BF-477C-895C-367DD1360B25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8688EE86-D0BF-477C-895C-367DD1360B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8688EE86-D0BF-477C-895C-367DD1360B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8688EE86-D0BF-477C-895C-367DD1360B25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94CB6575-2E43-48B1-98CE-49EA0A005FAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94CB6575-2E43-48B1-98CE-49EA0A005FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94CB6575-2E43-48B1-98CE-49EA0A005FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94CB6575-2E43-48B1-98CE-49EA0A005FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
